@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <string.h>
-// structure permettant de definir Fp2
+// structure permettant de definir Fp2=Fp[x]/(x^2+1)
 typedef struct{
     mpz_t x;
     mpz_t y;
